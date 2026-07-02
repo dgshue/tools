@@ -23,12 +23,12 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 
-IMAGES=		arm dvd nano serial vga vm
+IMAGES=		arm dvd nano rv2 serial vga vm
 STEPS=		audit arm base boot chroot clean clone compress confirm \
 		connect core distfiles download dvd fingerprint info \
 		kernel list make.conf nano obsolete options packages \
 		plugins ports prefetch print rebase release rename \
-		serial sign skim sync test tests update upload \
+		rv2 serial sign skim sync test tests update upload \
 		verify vga vm xtools
 SCRIPTS=	custom distribution hotfix nightly pkgver watch
 

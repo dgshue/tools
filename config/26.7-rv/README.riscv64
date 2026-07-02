@@ -1,0 +1,5 @@
+26.7-rv: OPNsense 26.7 (-devel) profile for the riscv64 / Orange Pi RV2 port.
+On a FreeBSD 15.1-RELEASE build host, OS?= 15.1 (inherited from 26.7) matches
+directly. amd64 base plists removed (base.sh keys off base.plist.${ARCH}; for
+riscv64 that is generated from the first base build; keeping amd64 lists here
+would be dead weight). Diff against config/26.7 to see the port delta.

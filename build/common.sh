@@ -1202,6 +1202,8 @@ setup_efiboot()
 		EFIFILE=bootx64
 	elif [ ${PRODUCT_ARCH} = "aarch64" ]; then
 		EFIFILE=bootaa64
+	elif [  = "riscv64" ]; then
+		EFIFILE=bootriscv64
 	else
 		echo ">>> Unsupported UEFI architecture: ${PRODUCT_ARCH}" >&2
 		exit 1
